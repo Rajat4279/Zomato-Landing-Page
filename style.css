@@ -89,10 +89,12 @@
 
 .container {
   margin: 2rem auto;
-  width: 80%;
+  width: 90%;
 }
 
 .we__offer {
+  margin-top: 50px;
+  width:97%;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
@@ -101,7 +103,10 @@
 }
 
 .we__offer_card {
-  border-radius: 10px;
+  min-width: 27%;
+  /* height: auto; */
+  height: 238px;
+  border-radius: 15px;
   overflow: hidden;
   border: 1px solid #e0e0e0;
   transition: all 0.3s ease;
@@ -131,8 +136,14 @@
   font-size: 12px;
 }
 
+.collections{
+  margin-top: 100px;
+  width:80%;
+}
+
 .collections h1 {
   font-weight: 600;
+  margin-left:100px;
 }
 
 .sub__heading_container {
@@ -142,6 +153,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-left:100px;
 }
 
 .sub__heading_container span:nth-child(2) {
@@ -151,6 +163,8 @@
 }
 
 .collections .collection_card_container {
+  margin:auto;
+  width:125%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,7 +175,7 @@
 
 .collection_card_container > .card {
   height: 300px;
-  min-width: 240px;
+  min-width: 300px;
   background-size: cover;
   background-position: center;
   border-radius: 5px;
@@ -336,7 +350,7 @@
   display:flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 80%;
   margin: auto;
   flex-wrap: wrap;
   gap:2rem;
@@ -367,7 +381,7 @@
 .navigation_container{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  width: 90%;
+  width: 80%;
   margin: auto;
   gap: 1rem;
   padding: 3rem 0;
@@ -426,7 +440,7 @@
 .disclamer{
   margin: auto;
   margin-top:10px;
-  width:90%;
+  width: 80%;
   font-weight: 400;
   font-size: 13px;
   color:gray;
@@ -435,10 +449,11 @@
 }
 
 .explore{
-  width:90%;
+  width:80%;
 }
 
 .explore_heading{
+  margin-left:5px;
   font-size: 30px;
   font-weight: 500;
   color:rgb(45, 45, 45);
@@ -528,7 +543,7 @@
   }
 
   .get__the_app .semiContainer {
-    width: 90%;
+    width: 80%;
   }
 }
 
