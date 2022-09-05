@@ -89,7 +89,7 @@
 
 .container {
   margin: 2rem auto;
-  width: 90%;
+  width: 80%;
 }
 
 .we__offer {
@@ -97,7 +97,7 @@
   width:97%;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1.1rem;
   align-items: center;
   justify-content: center;
 }
@@ -106,7 +106,7 @@
   min-width: 27%;
   /* height: auto; */
   height: 238px;
-  border-radius: 15px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid #e0e0e0;
   transition: all 0.3s ease;
@@ -138,22 +138,28 @@
 
 .collections{
   margin-top: 100px;
-  width:90%;
+  width:100%;
+  overflow-x: hidden;
+  /* overflow: hidden; */
 }
 
 .collections h1 {
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 400;
+  color:rgb(25, 25, 25);
   margin-left:100px;
 }
 
 .sub__heading_container {
-  font-size: 15px;
+  margin-left:100px;
+  width:87%;
+  color:rgb(88, 88, 88);
+  font-size: 18px;
+  font-weight: 300;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-left:100px;
 }
 
 .sub__heading_container span:nth-child(2) {
@@ -163,8 +169,8 @@
 }
 
 .collections .collection_card_container {
-  margin:auto;
-  width:110%;
+  margin-left:10px;
+  width:100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,6 +350,8 @@
 
 .footer{
   width:100%;
+  padding-top: 50px;
+  background-color: #f7f7f7;
 }
 
 .footer_section1{
@@ -391,6 +399,10 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.link__container img{
+  width:70%;
 }
 
 .link__container h5{
@@ -449,13 +461,14 @@
 }
 
 .explore{
+  margin:0px auto;
   width:80%;
 }
 
 .explore_heading{
   margin-left:5px;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 400;
   color:rgb(45, 45, 45);
 }
 
@@ -470,7 +483,7 @@
   border:none;
   box-shadow: 0px 0px 1px 1px rgb(233, 233, 233);
   text-align: left;
-  padding:1rem;
+  padding:1.3rem;
   font-size: 19px;
   font-weight: 300;
   cursor: pointer;
