@@ -152,7 +152,7 @@
 
 .sub__heading_container {
   margin-left:100px;
-  width:87%;
+  width:100%;
   color:rgb(88, 88, 88);
   font-size: 18px;
   font-weight: 300;
@@ -579,6 +579,19 @@
 }
 
 @media only screen and (max-width: 600px){
+  .sub__heading_container{
+    width:80%;
+    margin-left: auto;
+  }
+
+  .collections h1{
+    margin-left:85px;
+  }
+
+  .collection_card_container{
+    margin:auto;
+  }
+
   .navigation_container{
     grid-template-columns: repeat(2, 1fr);
   }
