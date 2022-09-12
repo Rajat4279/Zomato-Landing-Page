@@ -94,7 +94,7 @@
 
 .we__offer {
   margin-top: 50px;
-  width:97%;
+  width: 97%;
   display: flex;
   flex-wrap: wrap;
   gap: 1.1rem;
@@ -136,9 +136,9 @@
   font-size: 12px;
 }
 
-.collections{
+.collections {
   margin-top: 100px;
-  width:100%;
+  width: 100%;
   overflow-x: hidden;
   /* overflow: hidden; */
 }
@@ -146,14 +146,14 @@
 .collections h1 {
   font-size: 36px;
   font-weight: 400;
-  color:rgb(25, 25, 25);
-  margin-left:100px;
+  color: rgb(25, 25, 25);
+  margin-left: 100px;
 }
 
 .sub__heading_container {
-  margin-left:100px;
-  width:100%;
-  color:rgb(88, 88, 88);
+  margin-left: 100px;
+  width: 100%;
+  color: rgb(88, 88, 88);
   font-size: 18px;
   font-weight: 300;
   display: flex;
@@ -169,8 +169,8 @@
 }
 
 .collections .collection_card_container {
-  margin-left:10px;
-  width:100%;
+  margin-left: 10px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -348,32 +348,32 @@
   width: 35%;
 }
 
-.footer{
-  width:100%;
+.footer {
+  width: 100%;
   padding-top: 50px;
   background-color: #f7f7f7;
 }
 
-.footer_section1{
-  display:flex;
+.footer_section1 {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   width: 80%;
   margin: auto;
   flex-wrap: wrap;
-  gap:2rem;
+  gap: 2rem;
 }
 
-.footer_section1 img{
-  width:120px;
+.footer_section1 img {
+  width: 120px;
 }
 
-.section1__button_container{
+.section1__button_container {
   display: flex;
   gap: 1rem;
 }
 
-.section1__button_container button{
+.section1__button_container button {
   padding: 5px;
   width: 90px;
   border: 1px solid gray;
@@ -386,7 +386,7 @@
   cursor: pointer;
 }
 
-.navigation_container{
+.navigation_container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   width: 80%;
@@ -395,43 +395,43 @@
   padding: 3rem 0;
 }
 
-.link__container{
+.link__container {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.link__container img{
-  width:70%;
+.link__container img {
+  width: 70%;
 }
 
-.link__container h5{
+.link__container h5 {
   font-weight: 500;
   font-size: 15px;
   margin-bottom: 5px;
   letter-spacing: 0.8px;
 }
 
-.footer__link{
+.footer__link {
   text-decoration: none;
   color: gray;
   font-size: 14px;
   font-weight: 300;
 }
 
-.footer__link:hover{
+.footer__link:hover {
   color: black;
 }
 
-.social__links_container{
+.social__links_container {
   display: flex;
   gap: 0.5rem;
 }
 
-.social__links_container button{
+.social__links_container button {
   background-color: black;
-  border:none;
-  width:25px;
+  border: none;
+  width: 25px;
   height: 25px;
   border-radius: 30px;
   display: flex;
@@ -440,51 +440,51 @@
   cursor: pointer;
 }
 
-.social__links_container button i{
-  color:white;
+.social__links_container button i {
+  color: white;
   font-size: 13px;
 }
 
-.footer__section_logos{
-  width:100%;
+.footer__section_logos {
+  width: 100%;
 }
 
-.disclamer{
+.disclamer {
   margin: auto;
-  margin-top:10px;
+  margin-top: 10px;
   width: 80%;
   font-weight: 400;
   font-size: 13px;
-  color:gray;
+  color: gray;
   border-top: 1px solid gray;
   padding-top: 2rem;
 }
 
-.explore{
-  margin:0px auto;
-  width:80%;
+.explore {
+  margin: 0px auto;
+  width: 80%;
 }
 
-.explore_heading{
-  margin:15px 5px;
+.explore_heading {
+  margin: 15px 5px;
   font-size: 30px;
   font-weight: 400;
-  color:rgb(45, 45, 45);
+  color: rgb(45, 45, 45);
 }
 
-.explore_flex{
+.explore_flex {
   display: flex;
   flex-direction: column;
 }
 
-.explore_button{
+.explore_button {
   background-color: white;
-  margin:0.5rem;
-  border:none;
+  margin: 0.5rem;
+  border: none;
   border-radius: 5px;
   box-shadow: 0px 0px 0.5px 0.5px rgb(233, 233, 233);
   text-align: left;
-  padding:1.3rem;
+  padding: 1.3rem;
   font-size: 19px;
   font-weight: 300;
   cursor: pointer;
@@ -572,31 +572,31 @@
   }
 }
 
-@media only screen and (max-width: 900px){
-  .navigation_container{
+@media only screen and (max-width: 900px) {
+  .navigation_container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media only screen and (max-width: 600px){
-  .sub__heading_container{
-    width:80%;
+@media only screen and (max-width: 600px) {
+  .sub__heading_container {
+    width: 80%;
     margin-left: auto;
   }
 
-  .collections h1{
-    margin-left:85px;
+  .collections h1 {
+    margin-left: 85px;
   }
 
-  .collection_card_container{
-    margin:auto;
+  .collection_card_container {
+    margin: auto;
   }
 
-  .navigation_container{
+  .navigation_container {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .display_hidden{
+  .display_hidden {
     display: none;
   }
 }
