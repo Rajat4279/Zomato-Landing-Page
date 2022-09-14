@@ -491,6 +491,22 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .sub__heading_container {
+    width: 80%;
+  }
+
+  .collection_card_container {
+    margin: auto;
+  }
+
+  .navigation_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .display_hidden {
+    display: none;
+  }
+
   .hero__section {
     min-height: 80vh;
   }
@@ -575,28 +591,5 @@
 @media only screen and (max-width: 900px) {
   .navigation_container {
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .sub__heading_container {
-    width: 80%;
-    margin-left: auto;
-  }
-
-  .collections h1 {
-    margin-left: 85px;
-  }
-
-  .collection_card_container {
-    margin: auto;
-  }
-
-  .navigation_container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .display_hidden {
-    display: none;
   }
 }
