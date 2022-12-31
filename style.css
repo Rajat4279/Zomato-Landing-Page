@@ -147,12 +147,13 @@
   font-size: 36px;
   font-weight: 400;
   color: rgb(25, 25, 25);
-  margin-left: 100px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .sub__heading_container {
-  margin-left: 100px;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   color: rgb(88, 88, 88);
   font-size: 18px;
   font-weight: 300;
@@ -179,7 +180,7 @@
   margin-top: 1.5rem;
 }
 
-.collection_card_container > .card {
+.collection_card_container>.card {
   height: 300px;
   min-width: 300px;
   background-size: cover;
@@ -211,11 +212,9 @@
   top: 0px;
   left: 0px;
   border-radius: 5px;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.9) 0%,
-    rgba(0, 0, 0, 0.1) 40%
-  );
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.1) 40%);
 }
 
 .collection_card_container .card .content {
@@ -557,6 +556,7 @@
 }
 
 @media only screen and (max-width: 1300px) {
+
   .get__the_app .semiContainer .left,
   .get__the_app .semiContainer .right {
     flex: 1;
